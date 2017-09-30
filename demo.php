@@ -14,6 +14,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="JS/script.js"></script>
     </head>
+
+<style>
+    body
+    {
+    	background: url(CSS/IMGS/bg2.jpg);
+    	opacity: 0.95;
+    	overflow: hidden;
+    }
+</style>
+
 <body>
     <div id="demoBox">
         <?php
@@ -30,7 +40,7 @@
                 <li class="sousClassAvec1" style="margin-top:1% !important"><a href="#" style="font-size:16px;"> Avec</a></li>
                 <li class="sousClassSans1" style="margin-top:1% !important"><a href="#" style="font-size:16px;"> Sans</a></li>
             </ul>
-            <li><a href="#"> CSS</a></li>
+            <li class="lCss"><a href="#"> CSS</a></li>
             <ul>
                 <li class="sousClassAvec2" style="margin-top:1% !important"><a href="#" style="font-size:16px;"> Avec</a></li>
                 <li class="sousClassSans2" style="margin-top:1% !important"><a href="#" style="font-size:16px;"> Sans</a></li>
@@ -54,6 +64,15 @@
                 &ltp>Code HTML à la fin&lt/p>
             </code>
             <img class="imgAvec" src="CSS/IMGS/indexHtmlAvecResized.jpg" alt="..."/>
+            <img class="imgSans" src="CSS/IMGS/indexHtmlSansResized.png" alt="..."/>
+        </div>
+        <div class="cssCont">
+            <h2 style="text-decoration: underline;">Historique</h2>
+            <code>
+                &ltp>Code CSS à la fin&lt/p>
+            </code>
+            <img class="imgAvec" src="CSS/IMGS/indexHtmlAvecResized.jpg" alt="..."/>
+            <img class="imgSans" src="CSS/IMGS/indexCssSansResized.png" alt="..."/>
         </div>
     </div>
 </body>

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -10,6 +10,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="JS/script.js"></script>
     </head>
+
+<style>
+    body
+    {
+        background: url(CSS/IMGS/bg1.jpg);
+        opacity: 0.95;
+    	overflow: hidden;
+    }
+</style>
+
 <body>
         <div id="loginBox">
             <div class="iCenter">
