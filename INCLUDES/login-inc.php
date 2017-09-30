@@ -8,7 +8,6 @@ if (isset($_POST['submit'])) {
 
     $uid = mysqli_real_escape_string($conn, $_POST['uid']);
     $pass = mysqli_real_escape_string($conn, $_POST['pass']);
-
     //Error handlers
     //Check if inputs are empty
     if (empty($uid) || empty($pass)) {
